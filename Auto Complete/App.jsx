@@ -1,5 +1,4 @@
 import './App.css'
-import './AutoCompleteNew'
 import AutoComplete from './AutoComplete';
 
 function App() {

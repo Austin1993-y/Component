@@ -1,0 +1,25 @@
+.carousel{
+  overflow: hidden;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+.carousel_track {
+  transition: transform 500ms ease-in-out;
+  border: 2px solid red;
+}
+
+.carousel_track > div {
+  display: inline-block;
+}
+
+.carousel_handles {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.carousel_handles button {
+  padding: 2px 7px;
+  cursor: pointer;
+}

@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import "./index.css";
 import Step from "./Step";
 
-export default function Stepper({ steps }) {
+function Stepper({ steps }) {
   const [currentStep, setCurrentStep] = useState(1);
 
   const progressWidth =
     steps.length > 1 ? (currentStep - 1) * (100 / (steps.length - 1)) : 0;
-    console.log(progressWidth)
 
   return (
     <div className="newstepper">
@@ -27,4 +26,6 @@ export default function Stepper({ steps }) {
     </div>
   );
 }
+
+export default Stepper
 

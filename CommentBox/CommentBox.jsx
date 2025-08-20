@@ -3,7 +3,6 @@ import "./index.css"
 
 export default function CommentBox() {
   const [comments, setComments] = useState([]);
-  console.log(comments)
   const [input, setInput] = useState("");       
 
   const handleAddComment = () => {
@@ -36,3 +35,4 @@ export default function CommentBox() {
     </div>
   );
 }
+

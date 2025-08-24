@@ -7,11 +7,6 @@
   border-radius: 10px;
 }
 
-.carousel h1{
-  display: flex;
-  justify-content: center;
-}
-
 .carousel-image {
   width: 100%;
   height: 100%;

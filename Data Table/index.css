@@ -1,0 +1,29 @@
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.datatable tbody{
+  text-align: center;
+}
+
+.datatable th,
+.datatable td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.datatable th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.datatable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.datatable tr:hover {
+  background-color: #f1f1f1;
+}

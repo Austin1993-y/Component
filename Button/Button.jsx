@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './index.css'; // Optional for styling
+import './index.css';
 
 const Button = ({ label, onClick, type = 'button', disabled, className = '' }) => {
   return (
@@ -23,3 +23,4 @@ Button.propTypes = {
 };
 
 export default Button;
+
